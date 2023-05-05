@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+<meta charset="utf-8">
+<title>わくどき運動会ごっこ5/27チケット</title>
+<meta name="viewpoint"
+ content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<link rel="stylesheet" href="home.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript">
+  function check(){
+    if (name_form.name.value == ""){
+      alert("名前が入力されてないっぽいっす！"); 
+      return false;
+    }else if(name_form.name.value == "わく" || 
+             name_form.name.value == "ワク"){
+      location.href='https://wakudokirally.github.io/wakuwaku_gokko/';
+      return true;
+    }else if(name_form.name.value == "どき" || 
+             name_form.name.value == "ドキ"){
+      location.href='https://wakudokirally.github.io/dokidoki_gokko/';
+      return true;
+    
+    }else{
+      alert("LINEの名簿の名前になってるかな？ひらがな⇄カタカナでもだめだったらバズに問い合わせてね♪"); 
+    }
+  }
+</script>
+</head>
+
+<body>
+
+  <div class="box1">
+
+    <div class="nyuryoku">
+      <img id="#" src="画像/nyuryoku.PNG">
+    </div>
+
+    <div class="form">
+      <form action="xxx.html" method="get" name="name_form">
+        <input id="name" type="text" name="name">
+        <input id="button" type="button" value="チケット表示" id="doLogin" onClick="return check()">
+      </form>
+    </div>
+
+    <div class="logo">
+      <img id="#" src="画像/logo_gokko.PNG">
+    </div>
+
+  </div>
+
+</body>
+
+</html>
