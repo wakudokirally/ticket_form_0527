@@ -40,13 +40,11 @@ input#button {
 
 
 input[type="button"]{
-  /*font-size: 150%;*/
-  font-size: 25px;
+  font-size: 150%;
 }
 
 input[type="text"]{
-  /*font-size: 150%;*/
-  font-size: 25px;
+  font-size: 150%;
 }
 
 .logo img {
