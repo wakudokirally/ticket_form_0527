@@ -40,7 +40,8 @@ input#button {
 
 
 input[type="button"]{
-  font-size: 150%;
+  /*font-size: 150%;*/
+  font-size: 25px;
 }
 
 input[type="text"]{
