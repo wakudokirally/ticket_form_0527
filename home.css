@@ -44,7 +44,8 @@ input[type="button"]{
 }
 
 input[type="text"]{
-  font-size: 150%;
+  /*font-size: 150%;*/
+  font-size: 25px;
 }
 
 .logo img {
