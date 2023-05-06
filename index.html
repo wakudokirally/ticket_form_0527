@@ -16,16 +16,21 @@
       return false;
     }else if(name_form.name.value == "わく" || 
              name_form.name.value == "ワク"){
-      location.href='https://wakudokirally.github.io/wakuwaku_gokko/';
+      var result = confirm("ようこそ"+name_form.name.value+"。"+name_form.name.value+"のチケットを表示するね。");
+      if( result ) {
+        location.href='https://wakudokirally.github.io/wakuwaku_gokko/';
+      }
       return true;
     }else if(name_form.name.value == "どき" || 
              name_form.name.value == "ドキ"){
-      location.href='https://wakudokirally.github.io/dokidoki_gokko/';
-      return true;
-    
+      var result = confirm("ようこそ"+name_form.name.value+"。"+name_form.name.value+"のチケットを表示するね。");
+      if( result ) {
+        location.href='https://wakudokirally.github.io/dokidoki_gokko/';
+      }
+      return true;   
     }else{
-      alert("LINEの名簿の名前になってるかな？ひらがな⇄カタカナでもだめだったらバズに問い合わせてね♪"); 
-    }
+      alert("LINEの名簿の名前になってるかな？ひらがなもカタカナもだめだったらバズに問い合わせてね。"); 
+     }
   }
 </script>
 </head>
